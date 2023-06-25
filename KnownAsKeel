@@ -1,0 +1,9 @@
+local HWIDTable = loadstring(game:HttpGet("https://pastebin.com/raw/qFZuKzKz"))()
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
+print(HWIDTable)
+for i,v in pairs(HWIDTable) do 
+    if v == HWID then 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lackfujii/cheatersd34234/main/keelv2paid"))()
+
+	end
+end
